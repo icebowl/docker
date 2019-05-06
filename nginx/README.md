@@ -1,8 +1,11 @@
+https://hub.docker.com/_/nginx
+
+https://docs.docker.com/samples/library/nginx/
+
 https://www.dailysmarty.com/posts/steps-for-deploying-a-static-html-site-with-docker-and-nginx
 move html filw to ~/html
 docker run -d -p 80:80 html-server-image:v1
 docker run -d -p 8080:80 html-server-image:v1
-
 
 
 Step 1 - Create a Directory for the Website
