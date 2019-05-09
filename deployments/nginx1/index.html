@@ -1,0 +1,12 @@
+Nginx running in a docker container
+<a href = "docs/">docs</a>
+<hr />
+190509
+
+docker build -t html-server-image:v1 .
+
+docker run -d -p 8080:80 html-server-image:v1
+
+
+
+docker run -d -p 80:80 html-server-image:v1
